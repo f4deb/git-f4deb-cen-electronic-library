@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  02/07/2013 22:47:47
+PCBNEW-LibModule-V1  28/07/2013 10:51:56
 # encoding utf-8
 Units mm
 $INDEX
@@ -22,6 +22,7 @@ C_CHIM_19MM
 DIP-16__300_ELL
 DPAK
 DPAK6
+EC3A
 EMRSJ-1
 FI45
 G96
@@ -1172,6 +1173,124 @@ Ne 0 ""
 Po 1.905 -6.985
 $EndPAD
 $EndMODULE DPAK6
+$MODULE EC3A
+Po 0 0 0 15 51F4D7C0 00000000 ~~
+Li EC3A
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -1.27 1 1 0 0.15 N V 21 N "EC3A"
+T1 0 0 1 1 0 0.15 N V 21 N "VAL**"
+DS -9.652 -16.002 8.636 -16.002 0.15 21
+DS 8.636 -16.002 9.652 -16.002 0.15 21
+DS 9.652 -16.002 9.652 16.002 0.15 21
+DS 9.652 16.002 -9.652 16.002 0.15 21
+DS -9.652 16.002 -9.652 -16.002 0.15 21
+$PAD
+Sh "1" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -13.97
+$EndPAD
+$PAD
+Sh "2" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -11.43
+$EndPAD
+$PAD
+Sh "3" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 -8.89
+$EndPAD
+$PAD
+Sh "9" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 6.35
+$EndPAD
+$PAD
+Sh "10" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 8.89
+$EndPAD
+$PAD
+Sh "11" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 11.43
+$EndPAD
+$PAD
+Sh "12" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 13.97
+$EndPAD
+$PAD
+Sh "13" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 13.97
+$EndPAD
+$PAD
+Sh "14" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 11.43
+$EndPAD
+$PAD
+Sh "15" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 8.89
+$EndPAD
+$PAD
+Sh "16" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 6.35
+$EndPAD
+$PAD
+Sh "22" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -8.89
+$EndPAD
+$PAD
+Sh "23" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -11.43
+$EndPAD
+$PAD
+Sh "24" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 -13.97
+$EndPAD
+$SHAPE3D
+Na "../../git-f4deb-cen-electronic-library/wings/EC3A.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE EC3A
 $MODULE EMRSJ-1
 Po 0 0 0 15 468AACD6 00000000 ~~
 Li EMRSJ-1
@@ -2781,15 +2900,15 @@ Po 33.02 0.254
 $EndPAD
 $EndMODULE HE10_40D
 $MODULE IRFIZ48V
-Po 0 0 0 15 4BF6F469 00000000 ~~
+Po 0 0 0 15 4CFEAB30 00000000 ~~
 Li IRFIZ48V
 Cd Regulateur TO220 serie LM78xx
 Kw TR TO220
 Sc 0
-AR 
+AR /4BF30498/4BF58A13
 Op 0 0 0
-T0 -3.175 0 1.524 1.016 900 0.2032 N V 21 N "IRFIZ48V"
-T1 0.635 -6.35 1.524 1.016 0 0.2032 N V 21 N "VAL**"
+T0 -0.254 0 1.524 1.016 900 0.2032 N V 21 N "Q1"
+T1 0.635 -6.35 1.524 1.016 0 0.2032 N I 21 N "MOS_N"
 DS 1.905 -5.08 2.54 -5.08 0.381 21
 DS 2.54 -5.08 2.54 5.08 0.381 21
 DS 2.54 5.08 1.905 5.08 0.381 21
@@ -2801,25 +2920,31 @@ $PAD
 Sh "2" C 1.778 1.778 0 0 0
 Dr 1.016 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 3 "N-00000193"
 Po 0 2.54
 $EndPAD
 $PAD
 Sh "3" C 1.778 1.778 0 0 0
 Dr 1.016 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 1 "+15V"
 Po 0 0
 $EndPAD
 $PAD
 Sh "1" R 1.778 1.778 0 0 0
 Dr 1.016 0 0
 At STD N 00E0FFFF
-Ne 0 ""
+Ne 2 "N-00000170"
 Po 0 -2.54
 $EndPAD
 $SHAPE3D
-Na "discret/to220_vert.wrl"
+Na "F:/electronique/git-f4deb-cen-electronic-library/wings/to220_vert_radiateur.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$SHAPE3D
+Na "../../../git-f4deb-cen-electronic-library/wings/to220_vert_radiateur.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
