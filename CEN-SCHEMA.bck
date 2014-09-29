@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: jeu. 17 juil. 2014 22:05:11 CEST
+EESchema-DOCLIB  Version 2.0  Date: ven. 18 juil. 2014 18:51:48 CEST
 #
 $CMP 24C16
 D I2C Serial EEPROM
@@ -9,6 +9,10 @@ $CMP 24C512
 D I2C Serial eprom
 K I2C MEMORY
 F memory/24xx512.pdf
+$ENDCMP
+#
+$CMP PCF8563
+K I2C
 $ENDCMP
 #
 #End Doc Library
