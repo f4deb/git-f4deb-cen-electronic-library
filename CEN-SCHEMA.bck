@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: dim. 26 avril 2015 23:36:58 CEST
+EESchema-DOCLIB  Version 2.0
 #
 $CMP 24C16
 D I2C Serial EEPROM
@@ -11,8 +11,32 @@ K I2C MEMORY
 F memory/24xx512.pdf
 $ENDCMP
 #
+$CMP 2N7002
+D 2N7002, 60V Vds, 0.3A Id, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET Logic Level
+F http://www.nxp.com/documents/data_sheet/2N7002.pdf
+$ENDCMP
+#
+$CMP BSR14
+D BSR14, 40V Vce, 0.8A Ic, NPN, SOT-23
+K BSR14
+F http://www.nxp.com/documents/data_sheet/BSR13_BSR14.pdf
+$ENDCMP
+#
+$CMP BTS50055
+D BTS50055-1TMA, 34V Vds, 70A Id, 6mOhm Rds, N-Channel vertical power FET, PG-TO220-7-4
+K N-Channel vertical power FET
+F http://www.infineon.com/dgdl/Infineon-BTS50055_1TMA-DS-v01_01-en.pdf?fileId=db3a3043183a95550118607dca6c36c1&ack=t
+$ENDCMP
+#
 $CMP PCF8563
 K I2C
+$ENDCMP
+#
+$CMP STB80NF55L_06T4
+D STB80NF55L_06T4, 55V Vds, 80A Id, N-Channel MOSFET, D2PAK
+K N-Channel MOSFET
+F http://www.fairchildsemi.com/ds/BS/BS170.pdfhttp://www.st.com/web/en/resource/technical/document/datasheet/CD00003246.pdf
 $ENDCMP
 #
 #End Doc Library
