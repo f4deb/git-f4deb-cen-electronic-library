@@ -29,6 +29,11 @@ K N-Channel vertical power FET
 F http://www.infineon.com/dgdl/Infineon-BTS50055_1TMA-DS-v01_01-en.pdf?fileId=db3a3043183a95550118607dca6c36c1&ack=t
 $ENDCMP
 #
+$CMP M74VHC1GT02DTT1G
+D Quad Nor2
+K TTL Nor2
+$ENDCMP
+#
 $CMP PCF8563
 K I2C
 $ENDCMP
